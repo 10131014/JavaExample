@@ -1,7 +1,7 @@
 package NormalAlgorithm.singleNumber2;
 
 public class Solution {
-    public int singleNumber(int[] nums) {
+    public int singleNumber2(int[] nums) {
         int count;
         int ans=0;
         for (int i=0;i<32;i++)

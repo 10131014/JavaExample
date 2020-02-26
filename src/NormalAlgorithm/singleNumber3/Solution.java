@@ -2,7 +2,7 @@ package NormalAlgorithm.singleNumber3;
 
 
 public class Solution {
-    public int[] singleNumber(int[] nums) {
+    public int[] singleNumber3(int[] nums) {
         int ans1=0;
         int ans2=0;
         int a=0;

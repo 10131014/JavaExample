@@ -1,7 +1,7 @@
 package NormalAlgorithm.maxProfit2;
 
 public class Solution {
-    public int maxProfit(int[] prices) {
+    public int maxProfit2(int[] prices) {
         int maxprofit=0;
         for (int i=1;i<prices.length;i++)
         {

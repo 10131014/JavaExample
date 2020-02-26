@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
-    public List<Integer> majorityElement(int[] nums) {
+    public List<Integer> majorityElement2(int[] nums) {
         List<Integer> ans=new ArrayList<>();
         if(nums.length==0)
         {
