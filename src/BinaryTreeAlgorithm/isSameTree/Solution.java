@@ -1,4 +1,4 @@
-package NormalAlgorithm.isSameTree;
+package BinaryTreeAlgorithm.isSameTree;
 
 
 
