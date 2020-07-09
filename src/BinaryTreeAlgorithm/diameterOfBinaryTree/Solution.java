@@ -21,7 +21,7 @@ public class Solution {
         int right = depth(node.right);
         //以该节点为根节点的最大直径值与当前值比较，取最大值；
         ans = Math.max(left + right, ans);
-        //返回该节点为根节点的子树最大深度
+        //返回该节点为根节点的子树深度
         return Math.max(left, right) + 1;
     }
 }
