@@ -3,7 +3,7 @@ package NormalAlgorithm.minOperationsMaxProfit;
 import java.util.HashMap;
 import java.util.Map;
 
-//5524. 经营摩天轮的最大利润
+//1599. 经营摩天轮的最大利润
 public class Solution {
     public int minOperationsMaxProfit(int[] customers, int boardingCost, int runningCost) {
         if (runningCost > boardingCost * 4) {

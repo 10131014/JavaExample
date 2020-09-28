@@ -1,6 +1,6 @@
 package NormalAlgorithm.minOperations;
 
-//5523. 文件夹操作日志收集器
+//1598. 文件夹操作日志收集器
 public class Solution {
     public int minOperations(String[] logs) {
         int minstep = 0;
