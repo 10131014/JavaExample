@@ -2,7 +2,7 @@ package NormalAlgorithm.trimMean;
 
 import java.util.Arrays;
 
-//5122. 删除某些元素后的数组均值
+//1619. 删除某些元素后的数组均值
 public class Solution {
     public double trimMean(int[] arr) {
         Arrays.sort(arr);
