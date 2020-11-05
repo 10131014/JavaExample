@@ -1,4 +1,4 @@
-package NormalAlgorithm.permute;
+package BackTrackingAlgorithm.permute;
 
 import java.util.ArrayList;
 import java.util.List;
