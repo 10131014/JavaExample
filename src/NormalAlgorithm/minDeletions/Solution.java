@@ -2,7 +2,7 @@ package NormalAlgorithm.minDeletions;
 
 import java.util.Arrays;
 
-//5562. 字符频次唯一的最小删除次数
+//1647. 字符频次唯一的最小删除次数
 public class Solution {
     public int minDeletions(String s) {
         int[] count_zifu = new int[26];
