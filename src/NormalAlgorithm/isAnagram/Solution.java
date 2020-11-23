@@ -1,27 +1,26 @@
 package NormalAlgorithm.isAnagram;
 
-import java.util.Arrays;
+
 
 public class Solution {
     public boolean isAnagram(String s, String t) {
-        if (s.length()!=t.length())
-        {
+        if (s.length() != t.length()) {
             return false;
-        }
-        int[] a=new int[26];
-        int[] b=new int[26];
-        for (int i=0;i<s.length();i++)
-        {
-            a[s.charAt(i)-'a']++;
-            b[t.charAt(i)-'a']++;
-        }
-        if(Arrays.equals(a,b))
-        {
+        } else {
+            char[] s1 = s.toCharArray();
+            char[] t1 = t.toCharArray();
+            int[] scount = new int[26];
+            int[] tcount = new int[26];
+            for (int i = 0; i < s1.length; i++) {
+                scount[s1[i] - 'a']++;
+                tcount[t1[i] - 'a']++;
+            }
+            for (int i = 0; i < 26; i++) {
+                if (scount[i] != tcount[i]) {
+                    return false;
+                }
+            }
             return true;
-        }
-        else
-        {
-            return false;
         }
     }
 }
