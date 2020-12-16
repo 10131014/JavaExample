@@ -26,6 +26,7 @@ public class Solution {
         for (int k = i; k < 10; k++) {
             ans = ans + nums[k] * (int) Math.pow(10, 9 - k);
         }
+
         return ans;
     }
 }
